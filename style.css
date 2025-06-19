@@ -1,0 +1,477 @@
+
+@font-face { font-family: ClashMed; src: url("ClashGrotesk-Medium.otf"); }
+@font-face { font-family: Clash; src: url("ClashGrotesk-Regular.otf"); }
+
+/*GROUP -----------------------------------------------------------------*/
+
+body{
+    overflow-x: hidden;
+    overflow-y: visible;
+}
+
+#topbar{
+    
+    height: 70px;
+    width: auto;
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    top: 10px;
+    border: 2px solid white;
+    border-radius: 10px;
+    
+}
+
+#topbar-title{
+    color: white;
+    font-family: Clash;
+    font-size: 40px;
+    position: relative;
+    left: 50px;
+    top: -25px;
+}
+#topbar-login{
+    color: white;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    position: relative;
+    left: 1200px;
+    top: -107px;
+  
+    width: 100px;
+    height: 50px;
+    border: 10px;
+   
+   font-family: Clash;
+   transition-duration: 0.8;
+   font-size: 20px;
+}
+
+#topbar-login:hover{
+ animation: hover .5s ease-in-out;
+   background-color: white;
+   color: black; 
+    
+}
+
+#topbar-github{
+    color: white;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    position: relative;
+     left: 1250px;
+    top: -107px;
+    margin-top: auto;
+  
+    width: 100px;
+    height: 50px;
+    border: 10px;
+ 
+   font-family: Clash;
+   transition-duration: 0.8;
+   font-size: 20px;
+}
+
+#topbar-github:hover{
+animation: hover .5s ease-in-out;
+   background-color: white;
+   color: black;
+}
+
+/*MAIN HTML -----------------------------------------------------------------*/
+#main {
+    background-color: black;
+}
+
+#body-mainblock{
+     
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    top: 100px;
+    left: auto;
+    right: auto;
+    width: 1490px;
+    height: 500px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+#mainblock-maintitle{
+    color: white;
+    font-family: Clash;
+    font-size: 70px;
+    position: relative;
+    text-align: center;
+    top: 50px;
+}
+
+#mainblock-para{
+    color: white;
+    font-family: Clash;
+    font-size: 30px;
+    position: relative;
+    text-align: center;
+    top: 60px;
+    
+}
+
+
+
+#mainblock-join{
+
+    color: white;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    
+    font-family: Clash;
+    transition-duration: 0.8;
+    font-size: 20px;
+    
+    width: 175px;
+    height: 50px;
+    border: 10px;
+
+    position: absolute;
+    left: 45%;
+   
+    top: 350px;
+  
+}
+
+#mainblock-join:hover{
+    
+    animation: hover .5s ease-in-out;
+   background-color: white;
+   color: black;
+}
+
+@keyframes hover {
+
+    0%{
+        background-color: rgb(0, 0, 0);
+        color: white;
+    }
+   
+    100%{
+        background-color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+    }
+}
+#descblock1{
+     
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    top: 610px;
+    left: auto;
+    right: auto;
+    width: 1490px;
+    height: 500px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+#descblock1-title{
+    color: white;
+    font-family: Clash;
+    font-size: 60px;
+    position: relative;
+    
+    top: 50px; 
+    left: 100px;
+}
+
+#descblock1-para{
+   color: white;
+    font-family: Clash;
+    font-size: 30px;
+    position: relative;
+    text-align: center;
+    top: 70px;
+    width: 800px;
+    text-align: left;
+    left: 100px;
+}
+#descblock1-img1{
+    width: 400px;
+    height: 400px;
+    position: relative;
+    left: 950px;
+    top: -220px;
+}
+#descblock2{
+     
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    top: 1120px;
+    left: auto;
+    right: auto;
+    width: 1490px;
+    height: 500px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+#descblock2-title{
+    color: white;
+    font-family: Clash;
+    font-size: 60px;
+    position: relative;
+    
+    top: 50px; 
+    left: 700px;
+}
+
+#descblock2-para{
+   color: white;
+    font-family: Clash;
+    font-size: 30px;
+    position: relative;
+    text-align: center;
+    top: 70px;
+    width: 800px;
+    text-align: right;
+    left: 525px;
+}
+
+#descblock2-img2{
+    width: 350px;
+    height: 350px;
+    position: relative;
+    left: 100px;
+    top: -200px;
+}
+
+#descblock3{
+     
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    top: 1630px;
+    left: auto;
+    right: auto;
+    width: 1490px;
+    height: 500px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+#descblock3-title{
+    color: white;
+    font-family: Clash;
+    font-size: 60px;
+    position: relative;
+    
+    top: 50px; 
+    left: 100px;
+}
+
+#descblock3-para{
+   color: white;
+    font-family: Clash;
+    font-size: 30px;
+    position: relative;
+    text-align: center;
+    top: 70px;
+    width: 800px;
+    text-align: left;
+    left: 100px;
+}
+
+/*LOGIN HTML -----------------------------------------------------------------*/
+
+#loginmain {
+    background-color: black;
+}
+
+#login-frame{
+  background-color: rgb(0, 0, 0);
+    position: absolute;
+    
+    width: 400px;
+    height: 600px;
+    top: 150px;
+    margin: auto;
+    left: 575px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+#login-text{
+ color: white;
+    font-family: Clash;
+    font-size: 40px;
+    position: relative;
+    text-align: center;
+    top: 10px;
+   
+}
+
+#login-email{
+background-color: black;
+color: white;
+width: 290px;
+height: 35px;
+border: 2px solid rgb(255, 255, 255);
+position: relative;
+left: 50px;
+top: 50px;
+border-radius: 10px;
+}
+
+#login-pass{
+background-color: black;
+color: white;
+width: 290px;
+height: 35px;
+border: 2px solid rgb(255, 255, 255);
+position: relative;
+left: 50px;
+top: 100px;
+border-radius: 10px;
+}
+
+#login-comfirm{
+    color: white;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    
+    font-family: Clash;
+    transition-duration: 0.8;
+    font-size: 20px;
+    
+    width: 175px;
+    height: 50px;
+    border: 10px;
+
+    position: absolute;
+    left: 115px;
+   
+    top: 350px;
+}
+
+#login-comfirm:hover{
+     background-color: white;
+    color: black;
+}
+
+#google-login{
+    color: white;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    
+    font-family: Clash;
+    transition-duration: 0.8;
+    font-size: 20px;
+    
+    width: 175px;
+    height: 50px;
+    border: 10px;
+
+    position: absolute;
+    left: 115px;
+   
+    top: 400px;
+}
+
+#google-login:hover{
+     background-color: white;
+     color: black;
+}
+
+ /*SIGNUP ----------------------------------------------------------*/
+
+ #signmain {
+    background-color: black;
+}
+
+#sign-frame{
+  background-color: rgb(0, 0, 0);
+    position: absolute;
+    
+    width: 400px;
+    height: 600px;
+    top: 150px;
+    margin: auto;
+    left: 575px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+#sign-text{
+ color: white;
+    font-family: Clash;
+    font-size: 40px;
+    position: relative;
+    text-align: center;
+    top: 10px;
+   
+}
+
+#sign-email{
+background-color: black;
+color: white;
+width: 290px;
+height: 35px;
+border: 2px solid rgb(255, 255, 255);
+position: relative;
+left: 50px;
+top: 50px;
+border-radius: 10px;
+}
+
+#sign-pass{
+background-color: black;
+color: white;
+width: 290px;
+height: 35px;
+border: 2px solid rgb(255, 255, 255);
+position: relative;
+left: 50px;
+top: 100px;
+border-radius: 10px;
+}
+
+#sign-comfirm{
+    color: white;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    
+    font-family: Clash;
+    transition-duration: 0.8;
+    font-size: 20px;
+    
+    width: 175px;
+    height: 50px;
+    border: 10px;
+
+    position: absolute;
+    left: 115px;
+   
+    top: 350px;
+}
+
+#sign-comfirm:hover{
+     background-color: white;
+    color: black;
+}
+
+#google-sign{
+    color: white;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    
+    font-family: Clash;
+    transition-duration: 0.8;
+    font-size: 20px;
+    
+    width: 180px;
+    height: 50px;
+    border: 10px;
+
+    position: absolute;
+    left: 112px;
+   
+    top: 400px;
+}
+
+#google-sign:hover{
+     background-color: white;
+    color: black;
+}
