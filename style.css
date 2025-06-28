@@ -347,8 +347,9 @@ border-radius: 10px;
 }
 
 #login-comfirm:hover{
-     background-color: white;
-    color: black;
+     animation: hover .5s ease-in-out;
+   background-color: white;
+   color: black;
 }
 
 #google-login{
@@ -371,8 +372,9 @@ border-radius: 10px;
 }
 
 #google-login:hover{
-     background-color: white;
-     color: black;
+    animation: hover .5s ease-in-out;
+   background-color: white;
+   color: black;
 }
 
  /*SIGNUP ----------------------------------------------------------*/
@@ -448,8 +450,9 @@ border-radius: 10px;
 }
 
 #sign-comfirm:hover{
-     background-color: white;
-    color: black;
+    animation: hover .5s ease-in-out;
+   background-color: white;
+   color: black;
 }
 
 #google-sign{
@@ -472,6 +475,7 @@ border-radius: 10px;
 }
 
 #google-sign:hover{
-     background-color: white;
-    color: black;
+    animation: hover .5s ease-in-out;
+   background-color: white;
+   color: black;
 }
